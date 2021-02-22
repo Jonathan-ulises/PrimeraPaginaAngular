@@ -2,12 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PaginaAngular</title>
+  <title>Acuario UTL</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
+  <link rel="shortcut icon" href="assets/img/page-icon.png" /></head>
+<body class="body">
+  <header class="container-fluid bg-header p-5">
+      <h1 class="h1 text-white text-center">Venta de Peces</h1>
+
+      <!-- BARRA DE NAVEGACION -->
+      <barra-n></barra-n>    
+  </header>
+  
+  <!-- SECCION -->
+  <section class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <p class="mt-5 text-justify">
+          En la pagina de acuario UTL, tenemos a tu disposicion, la venta de peces de cualquier tipo
+          a buen precio. Ademas, tambien contamos con la venta de acuarios y todo el equipo necesario
+          para el perfecto funcionamiento y mantenimientos de los acuarios.
+          Revisa nuestras mejores ofertas y esperamos que encuentres lo que estas buscando
+        </p>
+      </div>
+    </div>
+    
+    <!-- CARD VIEWS -->
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center">
+        <card-view1 class="mr-5"></card-view1>
+        <card-view2 class="ml-5"></card-view2>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- footer -->
+  <app-footer></app-footer>
+
   <app-root></app-root>
 </body>
 </html>
